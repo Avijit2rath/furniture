@@ -1,0 +1,114 @@
+@media (max-width: 1399px) {
+  .hero h1 {
+    font-size: 54px;
+  }
+  .team-img {
+    width: 100%;
+    height: 260px;
+  }
+}
+@media (max-width: 1199px) {
+  .hero{
+    padding-bottom: 50px;
+  }
+  .hero .hero-img-wrap img {
+    left: 0px;
+  }
+  .hero .hero-img-wrap:after {
+    top: 0px;
+  }
+  .team-img {
+    height: 200px;
+}
+}
+
+@media (max-width: 991px) {
+  .custom-navbar .custom-navbar-nav li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .custom-navbar .custom-navbar-nav li a {
+    font-size: 12px;
+  }
+  .hero {
+    padding-bottom: 0;
+  }
+  .hero .intro-excerpt {
+    max-width: 450px;
+  }
+  .hero .hero-img-wrap img {
+    top: 0px;
+  }
+  .product-section {
+    padding: 5rem 0 3rem;
+  }
+  .why-choose-section {
+    padding: 2rem 0 3rem;
+  }
+  .why-choose-section .img-wrap:before,
+  .we-help-section .imgs-grid:before{
+    width: 200px;
+    height: 200px;
+    transform: translate(-15%, -22%);
+  }
+  .untree_co-section {
+    padding: 3rem 0 7rem;
+}
+  .team-img {
+    height: 320px;
+  }
+  .footer-section .subscription-form {
+    /* margin-top: 0px; */
+    margin-bottom: 80px;
+  }
+  .footer-section .links-wrap {
+    margin-top: 54px;
+  }
+}
+
+@media (max-width: 767px) {
+  .custom-navbar .custom-navbar-nav li a:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+    right: 8px;
+    background: #f9bf29;
+    height: 5px;
+    opacity: 1;
+    visibility: visible;
+    width: 0;
+    -webkit-transition: .15s all ease-out;
+    -o-transition: .15s all ease-out;
+    transition: .15s all ease-out;
+  }
+
+  .testimonial-slider-wrap .item .testimonial-block blockquote {
+    line-height: 32px;
+    font-size: 18px;
+  }
+  .testimonial-slider-wrap #testimonial-nav {
+    display: block;
+  }
+  .team-img {
+    height: 220px;
+  }
+  .blog-section {
+    padding: 3rem 0 8rem;
+  }
+}
+@media (max-width: 575px) {
+  .hero .hero-img-wrap:after {
+    width: 150px;
+  }
+  .testimonial-slider-wrap #testimonial-nav{
+    display: none;
+  }
+  .team-img {
+    height: 300px;
+  }
+  .footer-section .links-wrap {
+    margin-top: 0;
+  }
+}
+
